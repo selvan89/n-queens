@@ -143,7 +143,6 @@
       var j=majorDiagonalColumnIndexAtFirstRow;
       for(var i=0; i<size; i++){
         if(this.get(i)[j] === 1){
-          console.log(this.get(i)[j]);
           count++;
         }
           j++;
@@ -181,7 +180,6 @@
         }
           j--;
         }
-        console.log(count);
         return count>1;
  // fixme
     },
